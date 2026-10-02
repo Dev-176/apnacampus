@@ -1,0 +1,51 @@
+{
+  "name": "apnacampus",
+  "version": "1.0.0",
+  "main": "expo-router/entry",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "typecheck": "tsc --noEmit",
+    "test": "jest",
+    "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json,md}\""
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^4.1.3",
+    "@supabase/supabase-js": "^2.49.1",
+    "@tanstack/react-query": "^5.67.1",
+    "expo": "~52.0.37",
+    "expo-asset": "~11.0.5",
+    "expo-constants": "~17.0.7",
+    "expo-linking": "~7.0.5",
+    "expo-router": "~4.0.17",
+    "expo-secure-store": "~14.0.1",
+    "expo-status-bar": "~2.0.1",
+    "i18next": "^24.2.2",
+    "lucide-react-native": "^0.475.0",
+    "react": "18.3.1",
+    "react-hook-form": "^7.54.2",
+    "react-i18next": "^15.4.1",
+    "react-native": "0.76.7",
+    "react-native-safe-area-context": "4.12.0",
+    "react-native-screens": "~4.4.0",
+    "zod": "^3.24.2",
+    "zustand": "^5.0.3"
+  },
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "@types/node": "^26.6.3",
+    "@types/react": "~18.3.12",
+    "@types/ws": "^8.18.2",
+    "dotenv": "^18.0.5",
+    "eslint": "^8.57.0",
+    "eslint-config-expo": "~8.0.1",
+    "jest": "^30.5.2",
+    "prettier": "^3.5.3",
+    "ts-jest": "^29.4.14",
+    "typescript": "~5.3.3"
+  },
+  "private": true
+}
